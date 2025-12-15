@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Its Pooja Garg</title>
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/js/css/lightStyle.css" />
+
+    <!--
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon" />
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <!--
+    - #MAIN
+  -->
+    <div class="mode-container">
+        <input type="checkbox" class="checkbox" id="checkbox">
+        <label for="checkbox" class="checkbox-label">
+            <i class="fa-solid fa-sun" style="color: #ffca0a;"></i>
+            <i class="fa-solid fa-moon" style="color: #ecdb22;"></i>
+            <span class="ball"></span>
+        </label>
+    </div>
+    <main>
+        <!--
+      - #SIDEBAR
+    -->
+
+        <aside class="sidebar" data-sidebar>
+            <div class="sidebar-info">
+                <figure class="avatar-box">
+                    <img src="assets/js/pics/poojapic2.jpeg" alt="Ayushi_Choudhary" width="80" />
+                </figure>
+
+                <div class="info-content">
+                    <h1 class="name" title="Ayushi Choudhary">POOJA GARG</h1>
+
+                    <p class="title">Frontend Developer</p>
+
+                </div>
+
+                <button class="info_more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+            </div>
+
+            <div class="sidebar-info_more">
+                <div class="separator"></div>
+
+                <ul class="contacts-list">
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+
+                            <a href="mailto:pg246185@gmail.com"
+                                class="contact-link">pg246185@gmail.com</a>
+                        </div>
+                    </li>
+
+
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+
+                            <address>Greater Noida, India</address>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="separator"></div>
+
+                <ul class="social-list">
+                    <li class="social-item">
+                        <a href="https://www.linkedin.com/in/ayushi-choudhary-7688b91ba/" target="_blank"
+                            class="social-link">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                    </li>
+<!-- 
+                    <li class="social-item">
+                        <a href="https://twitter.com/geekyAyushi" target="_blank" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li> -->
+
+                    <li class="social-item">
+                        <a href="https://github.com/ayushichoudhary-19" target="_blank" class="social-link">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+        <!--
+      - #main-content
+    -->
+
+        <div class="main-content">
+            <!--
+        - #NAVBAR
+      -->
+
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-item">
+                        <button class="navbar-link active" data-nav-link>About</button>
+                    </li>
+
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Resume</button>
+                    </li>
+
+
+
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Projects</button>
+                    </li>
+
+
+
+                </ul>
+            </nav>
+
+            <!--
+        - #ABOUT
+      -->
+
+            <article class="about active" data-page="about">
+                <header>
+                    <h2 class="h2 article-title">About me</h2>
+                </header>
+
+                <section class="about-text">
+                    <p>
+                        I’m a final-year MCA student at GL Bajaj Institute of Technology and Management with a growing
+                        passion for software development and creative problem-solving. As an aspiring Frontend
+                        Developer, I love building interactive, user-friendly applications that look great and work
+                        smoothly across all devices.</p>
+                    <p>
+                        Through my internships and personal projects, I’ve explored how to turn ideas into
+                        reality—working on everything from intuitive dashboards and training platforms to smart hiring
+                        tools. I focus on writing clean code and am always eager to learn new technologies to make web
+                        experiences better. </p>
+                    <p>
+                        I’m passionate about using technology to solve real-world problems and creating interfaces that
+                        add genuine value to people’s lives.
+                    </p>
+
+
+                </section>
+
+
+                <section class="service">
+                    <h3 class="h3 service-title">What I'm doing</h3>
+
+                    <ul class="service-list">
+
+                        <li class="service-item">
+                            <!-- <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div> -->
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Full Stack Development</h4>
+
+                                <p class="service-item-text">
+                                    Working across the frontend and backend to build web applications using modern tools
+                                    and frameworks. I
+                                    focus on writing clean, scalable code and delivering thoughtful user experiences.
+                                </p>
+                            </div>
+                        </li>
+
+
+
+                        <li class="service-item">
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">
+                                    UI/UX & Component Design</h4>
+
+                                <p class="service-item-text">
+                                    Crafting responsive and accessible interfaces with attention to design and
+                                    usability. I enjoy creating
+                                    modular UI systems that are easy to scale and maintain.
+
+                                </p>
+                            </div>
+                        </li>
+
+
+                        <li class="service-item">
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">
+                                    Learning & Problem Solvingn</h4>
+
+                                <p class="service-item-text">
+                                    Actively improving my skills through projects, internships, and competitive
+                                    programming. I’ve solved
+                                    400+ DSA problems and enjoy tackling logical challenges that make me think deeper.
+
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+                <div class="modal-container" data-modal-container>
+                    <div class="overlay" data-overlay></div>
+
+                    <section class="testimonials-modal">
+                        <button class="modal-close-btn" data-modal-close-btn>
+                            <ion-icon name="close-outline"></ion-icon>
+                        </button>
+                </div>
+
+
+            </article>
+
+
+            <!--
+        - #Skills
+      -->
+            <!-- <section>
+        <article class="skills" data-page="skills">
+          <header>
+            <h2 class="h2 article-title">Skills</h2>
+          </header>
+
+          <section>
+            <a href="https://skillicons.dev">
+              <img
+                src="https://skillicons.dev/icons?i=html,css,js,ts,react,next,redux,tailwind,vercel,nodejs,express,firebase,appwrite,mongodb,mysql,prisma,postman,cpp,py,java,git,github&perline=8" />
+            </a>
+          </section>
+        </article>
+      </section> -->
+
+            <!-- Resume -->
+
+            <!--
+        - #RESUME
+      -->
+<article class="resume" data-page="resume">
+
+    <header>
+        <h2 class="h2 article-title">Resume</h2>
+    </header>
+
+    <section class="timeline">
+        <div class="title-wrapper">
+            <div class="icon-box">
+                <ion-icon name="desktop-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Projects</h3>
+        </div>
+
+        <ol class="timeline-list">
+            
+            <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                    JanSetu - Smart Collaboration Platform
+                </h4>
+                <span>React.js, Node.js, TailwindCSS [cite: 18]</span>
+
+                <ul>
+                    <li class="timeline-text">
+                        • Built a bridge-like platform where citizens can raise civic complaints with photos and location[cite: 25].
+                    </li>
+                    <li class="timeline-text">
+                        • Developed REST APIs using Express.js and integrated them with a React.js frontend for seamless user interaction[cite: 26].
+                    </li>
+                    <li class="timeline-text">
+                        • Implemented features like complaint upvoting, real-time status tracking, and inter-departmental coordination[cite: 27].
+                    </li>
+                </ul>
+            </li>
+
+            <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                    Food Ordering Website
+                </h4>
+                <span>React, JavaScript [cite: 29]</span>
+
+                <ul>
+                    <li class="timeline-text">
+                        • Created a dynamic food delivery web app with product listing, cart functionality, and interactive UI[cite: 30].
+                    </li>
+                    <li class="timeline-text">
+                        • Practiced component-based architecture and state management using React Hooks[cite: 31].
+                    </li>
+                </ul>
+            </li>
+
+        </ol>
+    </section>
+
+    <section class="timeline">
+        <div class="title-wrapper">
+            <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+        </div>
+
+        <ol class="timeline-list">
+
+            <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                    GL Bajaj Institute Of Technology And Management [cite: 5]
+                </h4>
+                <span>Expected 2026 [cite: 21]</span>
+                <p class="timeline-text">
+                    Masters of Computer Application | 8.8 CGPA [cite: 5]
+                </p>
+            </li>
+
+            <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                    Guru Jambheshwar University Of Science and Technology [cite: 6]
+                </h4>
+                <span>2020 — 2023 [cite: 22]</span>
+                <p class="timeline-text">
+                    Bachelors of Science With Honours | 8 CGPA [cite: 6]
+                </p>
+            </li>
+
+            <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                    Vishvas Nav Sharda Public School, Bhuna [cite: 8]
+                </h4>
+                <span>2020 [cite: 23]</span>
+                <p class="timeline-text">
+                    Intermediate | 84 Percentage [cite: 7]
+                </p>
+            </li>
+
+             <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                    Vishvas Nav Sharda Public School, Bhuna [cite: 10]
+                </h4>
+                <span>2018 [cite: 24]</span>
+                <p class="timeline-text">
+                    High School | 74 Percentage [cite: 9]
+                </p>
+            </li>
+
+        </ol>
+    </section>
+
+    <section class="timeline">
+        <div class="title-wrapper">
+            <div class="icon-box">
+                <ion-icon name="trophy-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Achievements & Certifications</h3>
+        </div>
+
+        <ol class="timeline-list">
+
+            <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Hackathon Finalist: NexGen Hack [cite: 34]</h4>
+                <span>2025</span>
+                <p class="timeline-text">
+                    Secured finalist position with Team 2000K, showcasing innovation and problem-solving skills[cite: 34].
+                </p>
+            </li>
+
+            <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Hackathon Participant: Build with India (Unstop) [cite: 33]</h4>
+                <span>2024</span>
+                <p class="timeline-text">
+                    Represented GL Bajaj Institute of Technology Management as a member of Team 2000K[cite: 33].
+                </p>
+            </li>
+
+            <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Full Stack Web Development 2.0 </h4>
+                <span>PW Skills (Physics Wallah), 2024</span>
+                <p class="timeline-text">
+                    Completed industry-oriented program covering HTML, CSS, JavaScript, React, and Git with hands-on project experience.
+                </p>
+            </li>
+
+            <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Student Member: IEEE [cite: 35]</h4>
+                <span>2024</span>
+                <p class="timeline-text">
+                    Joined IEEE to enhance academic knowledge and explore cutting-edge technologies[cite: 35].
+                </p>
+            </li>
+
+        </ol>
+    </section>
+
+</article>
+
+            <!--
+        - #Projects
+      -->
+
+            <article class="portfolio" data-page="projects">
+    <header>
+        <h2 class="h2 article-title">Projects</h2>
+    </header>
+
+    <section class="projects">
+        <ul class="filter-list">
+            <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+            </li>
+            <li class="filter-item">
+                <button data-filter-btn>Web Development</button>
+            </li>
+        </ul>
+
+        <div class="filter-select-box">
+            <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                    Select category
+                </div>
+
+                <div class="select-icon">
+                    <ion-icon name="chevron-down"></ion-icon>
+                </div>
+            </button>
+
+            <ul class="select-list">
+                <li class="select-item">
+                    <button data-select-item>All</button>
+                </li>
+                <li class="select-item">
+                    <button data-select-item>Web Development</button>
+                </li>
+            </ul>
+        </div>
+
+        <ul class="project-list">
+            
+            <li class="project-item active" data-filter-item data-category="web development">
+                <a href="#" target="_blank">
+                    <figure class="project-img">
+                        <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                        </div>
+
+                        <img src="./assets/images/project-1.png" alt="JanSetu" loading="lazy" />
+                    </figure>
+
+                    <h3 class="project-title">JanSetu - Smart Collaboration Platform</h3>
+
+                    <p class="project-category"></p>
+                    <span class="project-category"
+                        style="color: var(--orange-yellow-crayola);font-size:14px">
+                        React.js | Node.js | Express.js | TailwindCSS
+                    </span>
+                    <br />
+
+                    <p class="project-category" style="font-size:14px">
+                        Built a bridge-like platform where citizens can raise civic complaints with photos and location. 
+                        Features include complaint upvoting, real-time status tracking, and inter-departmental coordination 
+                        to ensure transparency and faster grievance redressal.
+                    </p>
+                </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web development">
+                <a href="#" target="_blank">
+                    <figure class="project-img">
+                        <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                        </div>
+
+                        <img src="./assets/js/pics/project1.jfif" alt="Food Ordering Website" loading="lazy" />
+                    </figure>
+
+                    <h3 class="project-title">Food Ordering Website</h3>
+
+                    <p class="project-category"></p>
+                    <span class="project-category"
+                        style="color: var(--orange-yellow-crayola);font-size:14px">
+                        React | JavaScript
+                    </span>
+                    <br />
+
+                    <p class="project-category" style="font-size:14px">
+                        Created a dynamic food delivery web app with product listing, cart functionality, and interactive UI. 
+                        Implemented component-based architecture and state management using React Hooks for a seamless user experience.
+                    </p>
+                </a>
+            </li>
+
+        </ul>
+    </section>
+</article>
+        </div>
+
+
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
