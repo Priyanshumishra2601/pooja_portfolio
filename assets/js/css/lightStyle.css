@@ -1637,3 +1637,46 @@ main {
   object-fit: cover;
   border-radius: 8px;
 }
+
+.resume-download-wrapper {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+/* Button Styling */
+.btn-download {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    
+    /* Aapka naya gradient color */
+    background: linear-gradient(to right, hsl(260, 96%, 71%), hsl(290, 100%, 76%));
+    
+    color: #ffffff; /* Text color White kiya hai taaki purple par saaf dikhe */
+    padding: 12px 25px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    
+    /* Shadow ko bhi purple tint diya hai matching ke liye */
+    box-shadow: 0 4px 10px rgba(186, 104, 255, 0.4); 
+    transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.btn-download:hover {
+    transform: translateY(-2px);
+    /* Shadow thodi dark aur glow karegi */
+    box-shadow: 0 6px 15px rgba(186, 104, 255, 0.6);
+    
+    /* Gradient direction change for effect */
+    background: linear-gradient(to left, hsl(260, 96%, 71%), hsl(290, 100%, 76%));
+}
+
+/* Icon Size */
+.btn-download ion-icon {
+    font-size: 20px;
+}
+
